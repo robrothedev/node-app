@@ -1,0 +1,65 @@
+body {
+  margin-top: 20px;
+}
+
+.check {
+  color: green;
+}
+
+.times {
+  color: red;
+}
+
+.total-title {
+  text-align: center;
+}
+
+.total {
+  text-align: center;
+  font-size: 60px;
+}
+
+.response-modal {
+  left: 0;
+  top: 0;
+  content: "";
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+}
+
+.modal-window {
+  width: 80%;
+  top: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.modal-window h4 {
+  top: 4px;
+  position: relative;
+}
+
+.close-modal {
+  cursor: pointer;
+  position: absolute;
+  right: 18px;
+  top: -4px;
+  font-size: 42px;
+  z-index: 101;
+}
+
+.card-search {
+  width: 300px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+
+.card-header > h5 {
+  margin: 0;
+}
